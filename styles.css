@@ -27,6 +27,8 @@ body{
     flex-direction:column;
     justify-content: flex-start;
     align-items: center;
+    padding: 50px;
+    padding-top: 10px;
 }
 
 .name-container{
@@ -40,11 +42,13 @@ body{
 .first-name-container{
     display:flex;
     flex-direction:column;
+    padding: 10px;
 }
 
 .last-name-container{
     display:flex;
     flex-direction:column;
+    padding: 10px;
 }
 
 .contact-container{
@@ -58,11 +62,13 @@ body{
 .email-container{
     display:flex;
     flex-direction:column;
+    padding: 10px;
 }
 
 .phone-container{
     display:flex;
     flex-direction:column;
+    padding: 10px;
 }
 
 .passwords-container{
@@ -76,11 +82,13 @@ body{
 .first-password-container{
     display:flex;
     flex-direction:column;
+    padding: 10px;
 }
 
 .confirm-password-container{
     display:flex;
     flex-direction:column;
+    padding: 10px;
 }
 
 form{
@@ -88,4 +96,37 @@ form{
     flex-direction:column;
     justify-content: center;
     align-items: center;
+}
+
+em{
+    color: red;
+}
+
+button{
+    font-size: 20px;
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border-color:white;
+    border-width: 0px;
+    box-shadow: none;
+}
+
+button:hover{
+    background-color: white;
+    color:red;
+    border-width: 2px;
+    border-color: red;
+}
+
+button:active{
+    background-color:black;
+    color:red;
+}
+
+a{
+    color:red;
 }
