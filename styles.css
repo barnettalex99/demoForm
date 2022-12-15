@@ -130,3 +130,7 @@ button:active{
 a{
     color:red;
 }
+
+input:focus{
+    box-shadow: red;
+}
