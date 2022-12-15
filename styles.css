@@ -1,0 +1,21 @@
+
+.content{
+    display:flex;
+    flex: auto;
+    flex-direction: row;
+    width: 100vw;
+    height:100vh;
+}
+
+.image-container{
+    display:flex;
+    justify-content: center;
+    width: 40vw;
+    height: 100vh;
+    overflow: hidden;
+    object-fit:contain;
+}
+
+.text-container{
+    width: 60vw;
+}
